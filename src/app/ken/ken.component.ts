@@ -6,13 +6,7 @@ import { RouterModule } from '@angular/router';
   selector: 'app-ken',
   standalone: true,
   imports: [CommonModule, RouterModule],
-  template: `
-    <a [routerLink]="['/home']">
-      Back to home page
-    </a>
-  `,
-  styleUrls: ['./ken.component.css']
+  template: ` <a [routerLink]="['/home']"> Back to home page </a> `,
+  styleUrls: ['./ken.component.css'],
 })
-export class KenComponent {
-
-}
+export class KenComponent {}
