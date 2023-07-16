@@ -109,6 +109,11 @@ export class HousingService {
     }
   ];
 
+  protected filteredLocationList: HousingLocation[] = [];
+  constructor() {
+    this.filteredLocationList = this.housingLocationList
+  }
+
   getAllHousingLocations(): HousingLocation[] {
     return this.housingLocationList;
   }
