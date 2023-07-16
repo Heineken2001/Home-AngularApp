@@ -27,16 +27,6 @@ import { HousingService } from '../housing.service';
   styleUrls: ['./home.component.css'],
 })
 
-// export class HomeComponent {
-//   housingLocationList: HousingLocation[] = [];
-//   // housingService: HousingService = inject(HousingService);
-
-//   constructor() {
-//     private housingService: HousingService = inject(HousingService);
-//     this.housingLocationList = this.housingService.getAllHousingLocations();
-//   }
-// }
-
 export class HomeComponent implements OnInit {
   housingLocationList: HousingLocation[] = [];
 
