@@ -64,6 +64,7 @@ export class DetailsComponent implements OnInit {
 
   submitApplication() {
     this.housingService.submitApplication(
+      console.log(12);
       this.applyForm.value.firstName ?? '',
       this.applyForm.value.lastName ?? '',
       this.applyForm.value.email ?? '',
