@@ -57,8 +57,7 @@ export class DetailsComponent implements OnInit {
 
   constructor(private housingService: HousingService) {}
 
-    submitApplication() {
-      ngOnInit() {
+  ngOnInit() {
     this.housingLocationId = Number(this.route.snapshot.params['id']);
     this.housingLocation = this.housingService.getHousingLocationById(this.housingLocationId);
   }
