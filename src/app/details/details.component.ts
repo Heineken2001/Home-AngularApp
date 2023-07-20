@@ -50,6 +50,7 @@ export class DetailsComponent implements OnInit {
   route: ActivatedRoute = inject(ActivatedRoute);
   housingLocationId = -1;
   applyForm = new FormGroup({
+    firstName: new FormControl(''),
     lastName: new FormControl(''),
     email: new FormControl(''),
   });
